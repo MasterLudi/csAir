@@ -1,0 +1,183 @@
+{
+    "metros": [
+        {
+            "timezone": -4,
+            "name": "Santiago",
+            "population": 6000000,
+            "code": "SCL",
+            "continent": "South America",
+            "coordinates": {
+                "S": 33,
+                "W": 71
+            },
+            "country": "CL",
+            "region": 1
+        },
+        {
+            "timezone": -5,
+            "name": "Lima",
+            "population": 9050000,
+            "code": "LIM",
+            "continent": "South America",
+            "coordinates": {
+                "S": 12,
+                "W": 77
+            },
+            "country": "PE",
+            "region": 1
+        },
+        {
+            "timezone": -6,
+            "name": "Mexico City",
+            "population": 23400000,
+            "code": "MEX",
+            "continent": "North America",
+            "coordinates": {
+                "W": 99,
+                "N": 19
+            },
+            "country": "MX",
+            "region": 1
+        },
+        {
+            "timezone": -5,
+            "name": "Bogota",
+            "population": 8600000,
+            "code": "BOG",
+            "continent": "South America",
+            "coordinates": {
+                "W": 74,
+                "N": 5
+            },
+            "country": "CO",
+            "region": 1
+        },
+        {
+            "timezone": -3,
+            "name": "Buenos Aires",
+            "population": 13300000,
+            "code": "BUE",
+            "continent": "South America",
+            "coordinates": {
+                "S": 35,
+                "W": 58
+            },
+            "country": "AR",
+            "region": 1
+        },
+        {
+            "timezone": -3,
+            "name": "Sao Paulo",
+            "population": 20900000,
+            "code": "SAO",
+            "continent": "South America",
+            "coordinates": {
+                "S": 24,
+                "W": 47
+            },
+            "country": "BR",
+            "region": 1
+        },
+        {
+            "timezone": -6,
+            "name": "Chicago",
+            "population": 9850000,
+            "code": "CHI",
+            "continent": "North America",
+            "coordinates": {
+                "W": 88,
+                "N": 42
+            },
+            "country": "US",
+            "region": 3
+        },
+        {
+            "timezone": -5,
+            "name": "Miami",
+            "population": 5400000,
+            "code": "MIA",
+            "continent": "North America",
+            "coordinates": {
+                "W": 80,
+                "N": 26
+            },
+            "country": "US",
+            "region": 1
+        }
+    ],
+    "routes": [
+        {
+            "ports": [
+                "SCL",
+                "LIM"
+            ],
+            "distance": 2453
+        },
+        {
+            "ports": [
+                "LIM",
+                "MEX"
+            ],
+            "distance": 4231
+        },
+        {
+            "ports": [
+                "LIM",
+                "BOG"
+            ],
+            "distance": 1879
+        },
+        {
+            "ports": [
+                "MEX",
+                "CHI"
+            ],
+            "distance": 2714
+        },
+        {
+            "ports": [
+                "MEX",
+                "MIA"
+            ],
+            "distance": 2053
+        },
+        {
+            "ports": [
+                "MEX",
+                "BOG"
+            ],
+            "distance": 3158
+        },
+        {
+            "ports": [
+                "BOG",
+                "MIA"
+            ],
+            "distance": 2425
+        },
+        {
+            "ports": [
+                "BOG",
+                "SAO"
+            ],
+            "distance": 4323
+        },
+        {
+            "ports": [
+                "BOG",
+                "BUE"
+            ],
+            "distance": 4651
+        },
+        {
+            "ports": [
+                "BUE",
+                "SAO"
+            ],
+            "distance": 1680
+        }
+
+
+
+    ]
+}
